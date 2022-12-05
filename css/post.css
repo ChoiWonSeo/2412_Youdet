@@ -54,3 +54,44 @@ h1 {
     display: block;
     margin: auto;
 }
+
+@media screen and (min-width:553px) and (max-width:594px) {
+    h1 {
+        font-size: 30px;
+    }
+    .for {
+        list-style: none;
+        margin-top: 14px;
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:553px) {
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+    .img_post {
+        margin-top: 18px;
+        border: solid 10px #BECDF3;
+        border-radius: 40px;
+        margin-bottom: 12px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .for {
+        list-style: none;
+        margin-top: 13px;
+        margin-bottom: 13px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .txt {
+        margin-top: 12px;
+        border: solid 2px #FF974D;
+        border-radius: 40px;
+        padding: 10px;
+        width: 450px;
+    }
+}
