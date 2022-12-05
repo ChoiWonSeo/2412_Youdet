@@ -79,6 +79,17 @@ select {
     align-items: center;
     font-size: 18px;
 }
+.sear-list:hover {
+    cursor: pointer;
+    color: #FF974D;
+}
+.sear-list a:hover {
+    color: #FF974D;
+}
+.sear-list a {
+    text-decoration: none;
+    color: #000;
+}
 
 @media screen and (max-width:980px) {
     .sear-list {
