@@ -96,9 +96,9 @@
             </div>
         </div>
     </div>
-    <button type="submit" class="btn">검색하기</button>
+    <button onclick='toggleBtn1()' id='btn'>검색하기</button>
 
-    <div class="sear-container2">
+    <div class="sear-container2" id="noneDiv" style="display: none;">
     <li class="list"><div class="listtxt">- 검색결과 *(클릭 시 자세한 내용으로 이동합니다.) - </div>
         <div class="lists">
             <div class="sear-list"><a href="post.html">경기도 양평군 양서면 ㅇㅇ소망보호소 - [프렌치불독] 수컷 2.5kg (귀 접힘)</a></div>
@@ -123,3 +123,18 @@
 
 </body>
 </html>
+<script>
+    function toggleBtn1() {    
+
+    const divL = document.getElementById('noneDiv');
+    
+    // 숨기기
+    if(divL.style.display !== 'none') {
+        divL.style.display = 'none';
+    }
+    // 보이기
+    else {
+        divL.style.display = 'block';
+    }
+}
+</script>

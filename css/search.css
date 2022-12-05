@@ -32,7 +32,7 @@ select {
     font-size: 20px;
     margin-bottom: 20px;
 }
-.btn {
+button {
     width: 160px;
     height: 40px;
     border-radius: 40px;
@@ -44,7 +44,7 @@ select {
     display: block;
     margin: auto;
 }
-.btn:hover {
+button:hover {
     color: #FF974D;
     background-color: #fff;
     border: solid 1px #FF974D;
@@ -115,7 +115,7 @@ select {
         font-weight: bold;
         margin-bottom: 20px;
     }
-    .btn {
+    button {
         width: 140px;
         height: 40px;
         font-size: 16px;
@@ -145,7 +145,7 @@ select {
         font-weight: bold;
         margin-bottom: 20px;
     }
-    .btn {
+    button {
         width: 140px;
         height: 40px;
         font-size: 16px;
@@ -177,7 +177,7 @@ select {
         font-weight: bold;
         margin-bottom: 20px;
     }
-    .btn {
+    button {
         width: 140px;
         height: 40px;
         font-size: 16px;
