@@ -39,7 +39,7 @@ nav li {
 }
 
 .set1 input, select {
-    width: 300px;
+    width: 400px;
     border: solid 1px #84A7EB;
     border-radius: 40px;
     height: 35px;
@@ -83,6 +83,7 @@ nav li {
 .set2 {
     list-style: none;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .likes {
     overflow: auto;
